@@ -1,0 +1,37 @@
+
+body
+{
+    background-image: url("img/brain.jpeg");
+    background-size: cover;
+}
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #d62027;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #d62027;
+    color: #f2fffc;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #d62027;
+    color: #f2fffc;
+}
+
+/* table styling was from w3schools.com */
+table, th, td {
+    border: 1px solid #f2fffc;
+}
